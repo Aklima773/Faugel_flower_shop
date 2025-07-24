@@ -66,8 +66,8 @@
 /* banner section style */
 
 .banner-part{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+  
     justify-content: space-between;
     align-items: end;
     margin-top: 120px;
@@ -121,20 +121,39 @@
 
 /* Responsive */
 
-@media screen and(max-width: 768px){
-
-    .container{
+@media screen and (max-width: 576px) {
+      .container {
+      
         width: 361px;
         margin: 0 auto;
-    }
+       
+        
+      }
+.cart-icon-price{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
 
-    .navber .menu-cart{
-        visibility: hidden;
+    .nav-items{
+        display:none;
     }
 
     .banner-part{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin-top:43px ;
+     
+    }
+    .left-side{
+        order: 2;
+        
+    }
+    .right-side{
+        order: 1;
+       
+      
     }
 }
     
