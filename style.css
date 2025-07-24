@@ -191,8 +191,22 @@
     margin-left: 40px;
 }
 
+.trusted-seller{
+    width: 286px;
+}
 
+/* trusted seller potisioning design  */
 
+.left-side{
+    position: relative;
+}
+
+.trusted-seller{
+    position: absolute;
+   left: 347px;
+    top: -127px;
+    
+}
 
 
 
@@ -333,6 +347,10 @@
     font-weight: 400;
     margin-left: 10px;
     color: rgba(0, 0, 0, 0.5);
+   }
+
+   .trusted-seller{
+    display: none;
    }
 }
     
