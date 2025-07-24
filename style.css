@@ -160,6 +160,37 @@
     
 }
 
+/* flower-plants-lover section design  */
+
+.flower-plants-lover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 210px;
+}
+
+
+
+.right-side{
+    width: 540px;
+    padding: 10px;
+}
+.right-side-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.right-side-content li{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
 
 
 
@@ -269,7 +300,39 @@
         font-weight: 600;
         padding: 12px 0;
     }
+.flower-plants-lover{
+    flex-direction: column;
+    gap: 18px;
+}
+   .flower-plants-lover .left-side {
+   order: 1;
+   
+   }
 
 
+    .flower-plants-lover .left-side .flower-store{
+    width: 358px;
+    height: 396px;
+    margin-top: 42px;
+   }
+
+   .flower-plants-lover .right-side{
+    width: 361px;
+     margin-top: 14px;
+   }
+
+  .right-side-title{
+    font-size: 24px;
+    font-weight: 700;
+   
+   }
+
+  .right-side-content li {
+    width: 361px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+   }
 }
     
