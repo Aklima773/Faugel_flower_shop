@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+}
+
+
+/* shared style */
+.container{
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* navber style */
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo img{
+    width: 135px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    list-style: none;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:sans-serif;
+    
+}
+
+.nav-items li .active{
+    color: rgb(37, 36, 50);
+    font-size: 16px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+.menu-cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.icon, .price{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* banner section style */
+
+.banner-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 120px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.black{
+    color: rgb(0, 0, 0);
+}
+
+.orang{
+    color: rgb(233, 90, 8);
+}
+
+.left-side p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* our plants part design  */
+
+.upper-part{
+    margin-top: 120px;
+    text-align: center;
+
+}
+.title{
+    font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+
+.upper-part p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 49px;
+}
+
+/* card part design  */
+
+.card{
+    text-align: center;
+}
+
+
+/* Responsive */
+
+@media screen and(max-width: 768px){
+
+    .container{
+        width: 361px;
+        margin: 0 auto;
+    }
+
+    .navber .menu-cart{
+        visibility: hidden;
+    }
+
+    .banner-part{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
