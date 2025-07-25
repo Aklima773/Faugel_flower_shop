@@ -208,7 +208,107 @@
     
 }
 
+/* Leates deal part design  */
 
+.leatest-deals-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.leatest-deal-content{
+    text-align: center;
+    margin-top: 134px;
+}
+.leatest-deal-content p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 120px;
+}
+
+.left-side-1{
+    
+    background-image: url(./assets/deal-bloom.png);
+  
+    background-repeat: no-repeat;
+    width: 366.22px;
+    height: 206px;
+    background-size: cover;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 65px 49px;
+}
+
+
+
+.left-side-1 h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    
+}
+
+.left-side-2{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    width: 366.22px;
+    height: 206px;
+    background-size: cover;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 65px 49px;
+}
+
+
+
+.shop-now a{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+}
+
+.left-side-2 h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    
+}
+
+.leatest-deals-images .right-side1{
+    background-image: url(./assets/deal-zabo.png);
+    width: 753px;
+    height: 423.13px;
+    border-radius: 15px;
+    text-align: center;
+   
+    
+}
+
+.right-side1 h1{
+    
+    font-size:40px;
+    font-weight: 600;
+    margin-top: 172px;
+    color: white;
+   
+}
+
+.shop-now2 a{
+      font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -352,5 +452,60 @@
    .trusted-seller{
     display: none;
    }
+
+   .leatest-deals-images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+
+  .leatest-deals-images .right-side1{
+    background-image: url(./assets/deal-zabo.png);
+    width: 361px;
+    height: 177px;   
+    border-radius: 15px;
+    text-align: center;
+   
+    
+}
+
+.right-side1 h1{
+    
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 19px;
+   
+   
+}
+
+.right-side1 .shop-now2 a{
+    font-size: 16px;
+    font-weight: 600;
+     
+
+}
+
+ .leatest-deal-content .title{
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 65px;
+        margin-bottom: 16px;
+    }
+
+    .leatest-deal-content p{
+        width: 336px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 46px;
+    }
+
+    .left-side{
+        order: 1;
+    }
+
+    .right-side1{
+        order: 2;
+    }
+
 }
     
