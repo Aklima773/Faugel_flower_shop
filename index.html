@@ -319,5 +319,16 @@
      <!-- footer part end -->
 
     </footer>
+
+
+    <script>
+      const cartButtons = document.querySelectorAll('.btn-primary');
+
+      cartButtons.forEach(button =>{
+        button.addEventListener('click', ()=>{
+          alert('Items Added to Cart!');
+        });
+      });
+    </script>
   </body>
 </html>
