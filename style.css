@@ -170,6 +170,22 @@
     margin-top: 210px;
 }
 
+/* animation design  */
+.spin-img{
+    animation: spin 3s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* animation design end */
 
 
 .right-side{
